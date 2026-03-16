@@ -90,13 +90,17 @@ Example output:
 
 ```json
 {
-  "DEV": [
-    {
-      "name": "smsLimit",
-      "type": "NUMBER",
-      "defaultValue": 100
-    }
-  ]
+  "DEV" : [ {
+    "id" : "a5795e85-5621-46c9-90dd-349be472feac",
+    "name" : "smsLimit",
+    "type" : "NUMBER",
+    "defaultValue" : "90",
+    "environment" : "DEV",
+    "overriddenValue" : null,
+    "lastUpdated" : [ 2026, 3, 16, 13, 38, 40, 908472000 ],
+    "value" : "90",
+    "valueOverridden" : false
+  } ]
 }
 ```
 
